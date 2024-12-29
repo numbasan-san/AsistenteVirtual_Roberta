@@ -9,7 +9,7 @@ def get_response(user_input):
     # Step 1: Remove special characters and numbers
     # Step 2: Convert to lowercase
     split_text = re.split(r'\s|[,:;¿?¡!-_]\s*', user_input.lower())
-    print(split_text)
+    # print(split_text)
     texto = " ".join(split_text)
 
     # Step 3: Tokenization and lemmatization using spaCy

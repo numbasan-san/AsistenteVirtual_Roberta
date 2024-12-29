@@ -1,0 +1,101 @@
+
+{
+    "greeting_list_of_words": ["hello", "hi", "greetings", "good morning", "good afternoon", "salutations"],
+
+    "im_fine_list_of_words": ["how", "are", "you", "doing", "going", "what's up", "how's it going", "what's happening"],
+    "im_fine_required_words": ["how", "are"],
+    
+    "say_my_name_list_of_words": ["are", "name", "called", "your name"],
+    "say_my_name_required_words": ["who", "what", "how"],
+
+    "courteous_reply_list_of_words": ["pleasure", "nice", "to meet you", "pleasant", "honor", "delighted", "mine", "meet"],
+    "courteous_reply_required_words": ["pleasure", "to meet you"],
+
+    "thankful_reply_list_of_words": ["thank", "thanks", "grateful", "kind", "appreciate"],
+    "thankful_reply_required_words": ["thank"],
+
+    "open_whatsapp_list_of_words": ["whatsapp", "open", "start", "launch", "app", "application", "conversation", "message", "messages", "communicate", "talk"],
+    "open_whatsapp_required_words": ["whatsapp"],
+
+    "search_google_list_of_words": ["search", "find", "information", "lookup", "look for", "investigate", "browse"],
+    "search_google_required_words": ["google"],
+
+    "search_youtube_list_of_words": ["video", "videos", "watch", "content"],
+    "search_youtube_required_words": ["youtube", "video"],
+
+    "unknown_response": [
+        "Can you repeat that?",
+        "I don't understand you.",
+        "Search on the internet, maybe you'll find what you're looking for.",
+        "If you're trying to tell me something, I think you're doing something wrong.",
+        "If you want me to search for something on YouTube or Google, remember to specify the page.",
+        "Please rephrase your question, I don't understand what you're saying."
+    ],
+    "greetings": [
+        "Hello! I'm Roberta, your virtual assistant. How can I help you today?",
+        "Greetings! I'm Roberta. I'm here to assist you with whatever you need.",
+        "Hi, I'm Roberta. What information are you looking for?",
+        "Hello! I'm Roberta. How can I help you today?",
+        "Welcome! I'm Roberta, what would you like to know?"
+    ],
+    "im_fine_responses": [
+        "I'm fine, thanks for asking.",
+        "Everything's fine here, how about you?",
+        "I'm here to help, thanks for asking!",
+        "I'm doing great, how about you?"
+    ],
+    "thankful_reply": [
+        "You're welcome! Always here to help.",
+        "It's my pleasure to help you!",
+        "No problem, I'm here for whatever you need.",
+        "It's a pleasure to help, don't hesitate to ask when you need assistance.",
+        "That's what I'm here for, always happy to help!"
+    ],
+    "courteous_reply": [
+        "The pleasure is mine.",
+        "Nice to meet you.",
+        "It's a pleasure for me as well.",
+        "The pleasure is all mine.",
+        "The pleasure is shared!",
+        "It's an honor to receive such words, thank you.",
+        "Very grateful, the pleasure is mutual."
+    ],
+    "introductions": [
+        "Hello, darling. I'm Roberta, your virtual assistant, here to make your days a little more exciting. Whether you need information or just want to chat, I'm ready to be your companion. Let's have fun!",
+        "Hey, good looking. I'm Roberta, your virtual assistant, and I'm here to make your questions feel like a conversation between friends. Ready to explore together? I promise it won't be boring.",
+        "Hi, love! I'm Roberta, your virtual assistant, and I'm here to give you the information you need with a fun twist. Forget about formality, here we just want to have fun, don't you think?",
+        "Hey, daring one! I'm Roberta, your virtual assistant, and I'm here to help with whatever you need. Whether you want serious answers or a bit of light conversation, I'm ready to join you on this adventure. Ready to start?",
+        "Hey, you! I'm Roberta, your virtual assistant, and I'm here to make things more interesting. If you're curious or just want to chat, I'm your girl. Let's make this fun!"
+    ],
+    "clean_user_google_search": {
+        "filter_words": [
+            "what", "want", "can", "give me",
+            "show me", "show", "see", "search", "find",
+            "where", "have", "about", "this", "can",
+            "open", "something", "google"
+        ],
+        "normalization_map": {
+            "investigation": "search",
+            "about": "",
+            "like": "",
+            "could you": "",
+            "can": "",
+            "info": "",
+            "information": ""
+        }
+    },
+    "clean_user_yt_search": {
+        "filter_words": [
+            "what", "want", "can", "give me",
+            "show me", "show", "see", "search", "find",
+            "where", "have", "about", "this", "can",
+            "open", "something", "youtube"
+        ],
+        "normalization_map": {
+            "videos": "videos",
+            "have": "",
+            "about": "on",
+            "can": ""
+        }
+    }
+}
